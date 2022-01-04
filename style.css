@@ -1,0 +1,36 @@
+body {
+    margin: 0;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+}
+h1 {
+    font-size: 50px;
+}
+h3 {
+    font-size: 30px;
+}
+p {
+    font-size: 20px;
+}
+.orange-color {
+    color: orange;
+}
+.image-width {
+    width: 80%;
+}
+.linkdin-button {
+    font-size: 20px;
+    padding: 10px 40px;
+    text-decoration: none;
+    color: white;
+    border-radius: 5px;
+    background-image: linear-gradient(blue, black);
+}
+.half-width {
+    width: 50%;
+    padding: 2%;
+}
+.flexible-container {
+    display: flex;
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
+}
