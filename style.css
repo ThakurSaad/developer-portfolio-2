@@ -35,8 +35,41 @@ p {
     background-repeat: no-repeat;
 }
 .dream-big {
+    margin-top: 150px;
     display: flex;
     background-image: url(images/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
+}
+/* exp start  */
+.dev-exp {
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    margin-top: 150px;
+    margin-bottom: 150px;
+}
+.dev-exp-item {
+    display: flex;
+}
+.full-stack {
+    box-shadow: 10px 10px 40px gray;
+    width: 40%;
+    padding: 50px 5%;
+    margin: 0 50px;
+    border-left: 7px solid;
+    border-image: linear-gradient(forestgreen, crimson);
+    border-image-slice: 1;
+}
+.noob-stack {
+    box-shadow: 10px 10px 40px gray;
+    width: 40%;
+    padding: 50px 5%;
+    margin: 0 50px;
+    border-left: 7px solid;
+    border-image: linear-gradient(red, gray, blue);
+    border-image-slice: 1;
+}
+footer p {
+    text-align: center;
 }
